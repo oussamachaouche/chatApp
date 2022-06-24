@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.Toastify__toast-theme--dark {
+  background-color: #00000076 !important;
+}
+
+
+.Container{
+  display: grid;
+  grid-template-rows: 10% 75% 15%;
+  overflow: hidden;
+  background-color: #080420;
+}
+
+
+
+.one img{ 
+  
+    height: 4rem;
+    max-inline-size: 100%;
+  
+} 
+
+
+
+.contact .avatar img{
+      height: 3rem;
+}
+.contact {
+  background-color: #ffffff34;
+  min-height: 5rem;
+  cursor: pointer;
+  width: 90%;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+
+.contact .username h3 {
+   color: white;
+}
+
+
+.username h3 {
+   color: white;
+}
+
+.selected {
+  background-color: #9a86f3;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.brand img{
+ height: 2rem;
+}
+
+.brand h3 {
+color: white;
+    text-transform: uppercase; 
+}
+
+
+
+ 
+
+
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  gap: 0.8rem;
+
+   
+  }
+
+  .contacts::-webkit-scrollbar {
+
+    background-color: #0000e721;
+      width: 0.2rem;
+     
+     
+    }
+
+    .contacts::-webkit-scrollbar-thumb{
+     
+          background-color: red;
+          width: 0.1rem;
+          border-radius: 1rem;
+     
+       
+      }
+
+      .current-user {
+        background-color: #0d0d30;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      .current-user .avatar img{
+        
+          height: 4rem;
+          max-inline-size: 100%;
+      
+      }
+      .current-user .username h2{
+       
+          color: white;
+        
+      }
+
+      @media screen and (min-width: 720px) and (max-width: 1080px) {
+       
+        .current-user .username h2 {
+          
+            font-size: 1rem;
+      }
+    }
+      
+
+
